@@ -97,7 +97,7 @@ export default function FAQ() {
 
             <div className="mt-4 flex flex-col sm:flex-row gap-3">
               <a
-                href="tel:+15138867276"
+                href="tel:5138867276"
                 className="px-5 py-2 rounded-full bg-gradient-to-r from-red-500 to-green-400 hover:from-red-600 hover:to-green-500 text-center text-sm font-semibold transition"
               >
                 Call Support
@@ -159,7 +159,7 @@ export default function FAQ() {
 
             <div className="mt-4 flex flex-col sm:flex-row gap-3">
               <a
-                href="tel:+15138867276"
+                href="tel:5138867276"
                 className="px-5 py-2 rounded-full bg-gradient-to-r from-red-500 to-green-400 hover:from-red-600 hover:to-green-500 text-center text-sm font-semibold transition"
               >
                 Call Support

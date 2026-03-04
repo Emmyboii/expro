@@ -43,7 +43,7 @@ const Footer = () => {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <div className="flex items-center gap-2 text-red-500">
-                <FaPhone /> <span>+1 (513) 886-7276</span>
+                <FaPhone /> <span> (513) 886-7276</span>
               </div>
               <div className="flex items-center gap-2 text-green-400 break-all">
                 <FaEnvelope /> <span>exprofacilitiesservices@gmail.com</span>

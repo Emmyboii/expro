@@ -41,8 +41,8 @@ const Contact = () => {
 
                         <div className="bg-white/5 border border-white/10 p-5 rounded-lg">
                             <p className="text-gray-400 text-sm">Phone</p>
-                            <a href="tel:+15138867276" className="sm:text-lg font-semibold hover:text-white">
-                                +1 (513) 886-7276
+                            <a href="tel:5138867276" className="sm:text-lg font-semibold hover:text-white">
+                                 (513) 886-7276
                             </a>
                         </div>
 
@@ -69,7 +69,7 @@ const Contact = () => {
 
                     {/* CTA */}
                     <a
-                        href="tel:+15138867276"
+                        href="tel:5138867276"
                         className="inline-flex items-center gap-2 px-8 py-3 bg-red-500 text-white font-semibold rounded-md hover:bg-red-400 transition"
                     >
                         Call Now <FaArrowRight />
@@ -108,8 +108,8 @@ const Contact = () => {
                         {[
                             {
                                 title: "Phone",
-                                value: "+1 (513) 886-7276",
-                                link: "tel:+15138867276",
+                                value: " (513) 886-7276",
+                                link: "tel:5138867276",
                             },
                             {
                                 title: "Email",
@@ -180,7 +180,7 @@ const Contact = () => {
                         </div>
 
                         <a
-                            href="tel:+15138867276"
+                            href="tel:5138867276"
                             className="relative px-8 py-3 rounded-full bg-white text-black font-semibold overflow-hidden group"
                         >
                             <span className="relative z-10">Call Now</span>

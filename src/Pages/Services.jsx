@@ -325,13 +325,13 @@ const Services = () => {
                 </div>
 
                 {/* METRICS (TRUST SECTION) */}
-                <div className="mt-24 border-t border-white/10 pt-16 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+                <div className="mt-24 border-t border-white/10 pt-16 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-10 text-center">
 
                     {[
                         { number: "100+", label: "Projects Completed" },
                         { number: "98%", label: "Client Satisfaction" },
                         { number: "24/7", label: "Service Availability" },
-                        { number: "10+", label: "Years Experience" },
+                        // { number: "10+", label: "Years Experience" },
                     ].map((stat, idx) => (
                         <motion.div
                             key={idx}

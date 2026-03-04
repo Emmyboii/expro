@@ -17,7 +17,7 @@ const Map = () => {
                         Where We Serve
                     </h3>
                     <p className="text-gray-300 max-w-2xl mx-auto leading-relaxed text-sm md:text-base">
-                        Our team provides reliable electrical and handyman services across the <span className="font-semibold text-green-400">Tri-State Area</span> — Ohio, Kentucky, and Indiana.  
+                        Our team provides reliable electrical and handyman services across the <span className="font-semibold text-green-400">Tri-State Area</span> — Ohio, Kentucky, and Indiana.
                         We ensure safe, efficient, and high-quality solutions wherever you are.
                     </p>
                 </div>
@@ -44,12 +44,12 @@ const Map = () => {
                     {/* Info Card */}
                     <div className="relative bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-3xl shadow-2xl hover:shadow-[0_0_60px_rgba(16,185,129,0.25)] transition-all duration-500">
                         <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-green-400">
-                            Our Headquarters & Coverage
+                            Our Coverage
                         </h4>
                         <ul className="space-y-3 text-gray-300">
                             <li className="flex flex-wrap items-center gap-3">
                                 <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>
-                                <strong>HQ:</strong> 6942 Tylersville Rd, West Chester township, Ohio 45069
+                                6942 Tylersville Rd, West Chester township, Ohio 45069
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>

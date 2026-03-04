@@ -142,7 +142,7 @@ const Home = () => {
                                 </Link>
 
                                 <a
-                                    href="tel:+15138867276"
+                                    href="tel:5138867276"
                                     className="border border-white/20 hover:border-green-500 px-8 py-3 rounded-full transition"
                                 >
                                     Call Now
@@ -184,7 +184,7 @@ const Home = () => {
 
                                 {/* Contact block */}
                                 <div className="space-y-2 text-sm text-gray-300">
-                                    <p>📞 +1 (513) 886-7276</p>
+                                    <p>📞  (513) 886-7276</p>
                                     <p>📍 West Chester, Ohio</p>
                                     <p className="text-green-400">● Available Now</p>
                                 </div>
@@ -233,10 +233,10 @@ const Home = () => {
                             </div>
 
                             {/* Experience badge */}
-                            <div className="absolute bottom-6 left-6 bg-white px-6 py-4 shadow-lg border border-gray-100">
+                            {/* <div className="absolute bottom-6 left-6 bg-white px-6 py-4 shadow-lg border border-gray-100">
                                 <h3 className="text-2xl font-bold text-gray-900">10+</h3>
                                 <p className="text-sm text-gray-500">Years Experience</p>
-                            </div>
+                            </div> */}
 
                             {/* Accent border */}
                             <div className="absolute top-0 right-0 w-2 h-full bg-gradient-to-b from-red-600 to-green-600" />
@@ -472,7 +472,7 @@ const Home = () => {
                                     Categories
                                 </p>
 
-                                {["All", "Electrical", "Handyman", "Lighting", "Plumbing"].map((c) => (
+                                {["All", "Handyman", "Minor Electrical", "Minor Plumbing"].map((c) => (
                                     <button
                                         key={c}
                                         onClick={() => { setFilter(c); setExpanded(null); }}
@@ -490,8 +490,8 @@ const Home = () => {
                                 <div className="mt-8 p-5 border border-gray-700 rounded-xl bg-gray-900">
                                     <p className="text-sm text-gray-400">Need assistance?</p>
 
-                                    <a href="tel:+15138867276" className="block mt-3 font-semibold hover:text-red-500">
-                                        +1 (513) 886-7276
+                                    <a href="tel:5138867276" className="block mt-3 font-semibold hover:text-red-500">
+                                         (513) 886-7276
                                     </a>
 
                                     <a href="mailto:exprofacilitiesservices@gmail.com" className="block text-gray-400 break-all text-sm hover:text-green-400">
